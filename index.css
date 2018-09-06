@@ -1,0 +1,914 @@
+html, body, #main {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+header {
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    background-color: #1677cb;
+}
+.logo-bar {
+    height: 100%;
+    background-color: #136ab6;
+}
+.logo {
+    background-image: url("images/logo.jpg");
+    height: 40px;
+    width: 50px;
+    display: inline-block;
+}
+.logo-text {
+    font: 14px "Times New Roman";
+    color: white;
+    vertical-align: top;
+    padding-top: 12px;
+    display: inline-block;
+}
+.middle-header {
+    width: calc(100% - 500px);
+    display: inline-block;
+}
+.right-bar {
+    height: 100%;
+    display: inline-block;
+}
+.for-search {
+    margin-top: 5px;
+    height: 20px;
+    padding: 3px;
+    vertical-align: top;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: white;
+}
+.for-search input[type=text] {
+    border: 0;
+    vertical-align: top;
+    padding: 3px 0 0 10px;
+    outline: none;
+    display: inline-block;
+}
+.search-icon {
+    background-image: url("images/search.jpg");
+    vertical-align: top;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+.separator {
+    background-image: url("images/separator.jpg");
+    height: 40px;
+    width: 5px;
+    display: inline-block;
+}
+.account {
+    display: inline-block;
+}
+.picture {
+    background: url("images/picture.jpg") no-repeat;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    display: inline-block;
+}
+.number {
+    font: bold 13px "Segoe UI";
+    color: white;
+    margin: 20px 20px 0 -15px;
+    vertical-align: top;
+    background-color: #1677cb;
+    display: inline-block;
+}
+.arrow {
+    background-image: url("images/arrow.jpg");
+    width: 11px;
+    margin: 0 10px 15px 0;
+    height: 14px;
+    display: inline-block;
+}
+#bars {
+    height: calc(100% - 40px);
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0;
+}
+#first-bar {
+    height: 100%;
+    width: 10%;
+    background-color: #444a59;
+    display: inline-block;
+    vertical-align: top;
+    font: bold 14px "Segoe UI";
+    color: white;
+}
+.dropbtn {
+    font: bold 15px "Segoe UI";
+    color: white;
+    height: 40px;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #444a59;
+}
+.dropbtn:hover, .dropdown-content a:hover {
+    background-color: #696e7a;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.dropdown-content a {
+    color: #aeb0b5;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+#first-bar>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#first-bar>ul>ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#first-bar>ul li a{
+    display: block;
+}
+#left-2col {
+    height: calc(100% - 420px);
+    background-color: #136ab6;
+    display: inline-block;
+}
+#left-3col {
+    height: 30px;
+    width: 100%;
+    display: inline-block;
+}
+#left-3col1 {
+    width: 95px;
+    margin: 0 auto;
+    padding: 5px 0;
+    border-radius: 25px;
+    border: 1px solid #f6f6f6;
+    text-align: center;
+    font: 12px "Segoe UI";
+    font-weight: 600;
+    color: #f6f6f6;
+}
+#second-bar {
+    margin: 0 auto;
+    padding: 0;
+    vertical-align: top;
+    height: 100%;
+    width: 19%;
+    display: inline-block;
+}
+.margin {
+    font: bold 13px "Segoe UI";
+    width: 92%;
+    height: 40px;
+    margin: 0 auto;
+}
+.button {
+    background-image: url("images/grey.jpg");
+    height: 15px;
+    width: 14px;
+    display: inline-block;
+}
+.red-number {
+    margin: 0 0 0 5px;
+    vertical-align: top;
+    padding: 0 2px;
+    border-radius: 2px;
+    font: bold 13px "Segoe UI";
+    display: inline-block;
+    background-color: #ff6868;
+    color: white;
+}
+.refresh {
+    border-bottom: 1px solid #bcbdbf;
+    height: 40px;
+    width: 100%;
+    display: inline-block;
+}
+.reload {
+    float: left;
+    background-image: url("images/refresh.jpg");
+    height: 40px;
+    width: 49px;
+    display: inline-block;
+}
+.date input[type=text] {
+    border: 0;
+    outline: none;
+}
+.date {
+    float: right;
+    text-align: center;
+    border: 1px solid #bcbdbf;
+    border-radius: 25px;
+    padding: 5px 10px;
+    margin: 5px 0 0 2px;
+    vertical-align: top;
+    display: inline-block;
+}
+.ticket-list {
+    height: calc(100% - 85px);
+    width: 100%;
+    display: inline-block;
+    overflow: auto;
+}
+.lists {
+    width: 100%;
+    font: bold 13px "Segoe UI";
+    display: inline-block;
+}
+.minutes {
+    float: right;
+    font: bold 11px "Segoe UI";
+    color: #bcbdbf;
+    display: inline-block;
+    margin: 20px 10px 0 0;
+}
+.new-ticket {
+    text-align: center;
+    color: white;
+    font: bold 13px "Segoe UI";
+    height: 45px;
+    width: 100%;
+    background-color: #1677cb;
+    display: inline-block;
+}
+.download {
+    background: url("images/blue.jpg") no-repeat;
+    height: 13px;
+    width: 14px;
+    padding: 0 5px;
+    display: inline-block;
+}
+.text {
+    vertical-align: middle;
+    font: 14px "Segoe UI";
+    color: #6d6e71;
+}
+.first-ticket {
+    border-bottom: 1px solid #bcbdbf;
+    margin: 0 auto;
+}
+.first-ticket:hover {
+    background-color: #e5ebf2;
+}
+.plus {
+    padding-top: 10px;
+    font: 16px "Segoe UI";
+    font-weight: 600;
+    display: inline-block;
+}
+.g {
+    color: white;
+    text-align: center;
+    font: 24px "Segoe UI";
+    font-weight: 600;
+    margin: 8px 0;
+    background-color: #b7c8d3;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.gmail {
+    color: #444444;
+    padding: 20px 0 0 10px;
+    font: bold 15px "Segoe UI";
+    display: inline-block;
+}
+.green {
+    background: url("images/green.jpg") no-repeat;
+    height: 17px;
+    width: 23px;
+    float: right;
+    margin: 20px 10px 0 0;
+    display: inline-block;
+}
+.supporter {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+::-webkit-scrollbar {
+   width: 2px;
+}
+.down-grey {
+    background: url("images/download.jpg") no-repeat;
+    height: 14px;
+    width: 17px;
+    margin-left: 40px;
+    display: inline-block;
+}
+.blue {
+    background: url("images/blue.jpg") no-repeat;
+    height: 17px;
+    width: 23px;
+    float: right;
+    margin: 20px 10px 0 0;
+    display: inline-block;
+}
+#third-bar {
+    border-left: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+    height: 100%;
+    width: 54%;
+    background-color: #f2f5f9;
+    display: inline-block;
+}
+.main-top {
+    width: 70%;
+    vertical-align: top;
+    margin: 0 auto;
+    height: auto;
+}
+#main-content {
+    overflow: auto;
+    height: calc(100% - 235px);
+    vertical-align: top;
+    width: 70%;
+    margin: 0 auto;
+    font: 12px "Segoe UI";
+    background-color: #f2f5f9;
+}
+p.ticket-subject {
+    font: 18px "Segoe UI";
+    font-weight: 600;
+    display: inline-block;
+}
+.right-side-icon {
+    float: right;
+    display: inline-block;
+}
+.edit {
+    margin-top: 12px;
+    padding: 5px 3px 0 3px;
+    text-align: center;
+    font: 13px "Segoe UI";
+    font-weight: 600;
+    height: 30px;
+    width: 77px;
+    border-radius: 25px;
+    background-color: #e1e4e7;
+    display: inline-block;
+}
+.icon {
+    background: url("images/icon.jpg") no-repeat;
+    height: 17px;
+    width: 17px;
+    vertical-align: top;
+    display: inline-block;
+}
+.slaq {
+    background: url("images/slaq.jpg") no-repeat;
+    height: 35px;
+    width: 37px;
+    vertical-align: top;
+    margin: 10px 10px 0 0;
+    display: inline-block;
+}
+.message-one-box {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.message-one-textarea {
+    border: 1px ridge gainsboro;
+    height: 100%;
+    width: 90%;
+    background-color: white;
+    display: inline-block;
+}
+.textarea-left {
+    vertical-align: top;
+    height: 100%;
+    width: 10%;
+    display: inline-block;
+}
+.main-content-text-box {
+    width: 88%;
+    vertical-align: top;
+    display: inline-block;
+}
+.main-content-text {
+    margin: 10px;
+    font: 14px "Segoe UI";
+    display: inline-block;
+}
+.letter {
+    color: white;
+    margin: 30px 0 0 5px;
+    text-align: center;
+    font: 24px "Segoe UI";
+    font-weight: 600;
+    background-color: #b7c8d3;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.message-two-box {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.message-two-box-position {
+    height: 100%;
+    width: 90%;
+    margin-left: 9%;
+    background-color: white;
+    display: inline-block;
+}
+.message-two-textarea-two {
+    width: 100%;
+    background-color: #fefaf3;
+    border: 1px ridge gainsboro;
+    height: auto;
+    display: inline-block;
+}
+.textarea-two-left {
+    vertical-align: top;
+    height: 100%;
+    width: 8%;
+    display: inline-block;
+}
+.man {
+    background: url("images/picture.jpg") no-repeat;
+    height: 30px;
+    width: 30px;
+    margin: 20px 0 0 5px;
+    vertical-align: top;
+    display: inline-block;
+}
+.main-content-text-two {
+    width: 85%;
+    vertical-align: top;
+    margin: 5px;
+    font: 14px "Segoe UI";
+    display: inline-block;
+}
+.comment-box {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background-color: #f2f5f9;
+}
+.subtext {
+    font: 12px "Segoe UI";
+    color: #b9b9b9;
+    display: inline-block;
+}
+.subicons {
+    margin-left: 300px;
+    height: auto;
+    vertical-align: top;
+    margin-top: -15px;
+    display: inline-block;
+}
+.assign {
+    display: inline-block;
+    background-image: url("images/assign.jpg");
+    height: 9px;
+    width: 14px;
+}
+.hr-box {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+.hr-item {
+    padding: 0 2px;
+    width: 15%;
+    display: inline-block;
+}
+.hr-text {
+    padding: 30px 0;
+    color: #444a59;
+    display: inline-block;
+}
+.message-two-textarea-two {
+    width: 100%;
+    background-color: white;
+    border: 1px ridge gainsboro;
+    height: auto;
+    display: inline-block;
+}
+.pdf {
+    vertical-align: top;
+    display: inline-block;
+    background-image: url("images/pdf.jpg");
+    height: 39px;
+    width: 37px;
+}
+.attachment-text {
+    display: inline-block;
+    padding: 10px 0 0 10px;
+    font: 14px "Segoe UI";
+    font-weight: 600;
+}
+.download-icon {
+    display: inline-block;
+    margin-left: 180px;
+    vertical-align: top;
+    background-image: url("images/download-icon.jpg");
+    height: 33px;
+    width: 32px;
+}
+#bottom-content {
+    text-align: center;
+    height: 170px;
+    border: 1px ridge gainsboro;
+    display: inline-block;
+    background-color: white;
+}
+.bottom-margin {
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+}
+.reply {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
+.reply-icon {
+    float: left;
+    margin-top: 10px;
+    background-image: url("images/reply.jpg");
+    height: 20px;
+    width: 21px;
+    display: inline-block;
+}
+.reply-text {
+    padding-left: 25px;
+    font: 14px "Segoe UI";
+    font-weight: 600;
+    display: inline-block;
+}
+.note-icon {
+    float: left;
+    margin: 10px 0 0 60px;
+    background-image: url("images/note.jpg");
+    height: 21px;
+    width: 22px;
+    display: inline-block;
+}
+.reply-text-two {
+    padding-left: 25px;
+    color: #c5c5c5;
+    font: 14px "Segoe UI";
+    font-weight: 600;
+    display: inline-block;
+}
+.input-part {
+    width: 100%;
+    height: 65px;
+    display: inline-block;
+    margin: 10px 0 0 0;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    background-color: white;
+}
+.input-part>textarea {
+    outline: none;
+    border: 0;
+}
+.follow-up {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+}
+.attachment-icon {
+    background-image: url("images/attachment.jpg");
+    height: 49px;
+    width: 49px;
+    float: left;
+    display: inline-block;
+}
+.follow {
+    float: left;
+    height: 25px;
+    border-radius: 25px;
+    padding: 5px 10px 3px 7px;
+    border: 1px solid silver;
+    margin: 10px 0 0 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+.follow-icon {
+    background-image: url("images/time.jpg");
+    height: 17px;
+    width: 23px;
+    display: inline-block;
+}
+.text-follow-up {
+    font: 14px "Segoe UI";
+    vertical-align: top;
+    font-weight: 600;
+    color: #6d6e71;
+    display: inline-block;
+}
+.close {
+    float: right;
+    vertical-align: top;
+    height: auto;
+    display: inline-block;
+}
+.close-all {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px 20px 7px 10px;
+    border-radius: 25px;
+    background-color: #67ba2f;
+}
+.send-reply-color {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px 12px 7px 12px;
+    border-radius: 25px;
+    background-color: #1677cb;
+}
+.close-icon {
+    display: inline-block;
+    background-image: url("images/white-green.jpg");
+    height: 19px;
+    width: 26px;
+}
+.close-text {
+    vertical-align: top;
+    font: 14px "Segoe UI";
+    color: white;
+    font-weight: 600;
+}
+.send-reply {
+    vertical-align: top;
+    margin-left: 5px;
+    display: inline-block;
+}
+#fourth-bar {
+    overflow: scroll;
+    width: 16%;
+    height: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
+.fourth-first-div {
+    height: 200px;
+    width: 100%;
+    vertical-align: top;
+    border-bottom: 2px solid gainsboro;
+    display: inline-block;
+}
+#google-icon {
+    color: white;
+    font: 24px "Segoe UI";
+    font-weight: 600;
+    margin: 20px auto 10px;
+    text-align: center;
+    background-color: #b7c8d3;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+}
+.google-text {
+    vertical-align: top;
+    font: bold 18px "Segoe UI";
+    color: #444444;
+    text-align: center;
+    display: block;
+}
+.google-inc {
+    font: 16px "Segoe UI";
+    text-align: center;
+    color: #444444;
+    margin-bottom: 15px;
+    display: block;
+}
+.connect-box {
+    width: 100%;
+    text-align: center;
+}
+.connect {
+    width: 40%;
+    background-color: #1677cb;
+    padding: 10px 10px;
+    border-radius: 25px;
+    display: inline-block;
+}
+.icon-google {
+    background: url("images/icon-google.jpg") no-repeat;
+    height: 9px;
+    width: 19px;
+    padding: 0 3px;
+    display: inline-block;
+}
+.connect-text {
+    font: 14px "Segoe UI";
+    font-weight: 600;
+    color: white;
+    display: inline-block;
+}
+.connect-icons {
+    width: 45%;
+    margin-left: 2px;
+    display: inline-block;
+}
+.chat {
+    background: url("images/chat.jpg") no-repeat;
+    height: 15px;
+    width: 18px;
+    display: inline-block;
+}
+.video {
+    margin: 0 10px 2px;
+    background: url("images/video.jpg") no-repeat;
+    height: 14px;
+    width: 19px;
+    display: inline-block;
+}
+.stats {
+    background: url("images/stats.jpg") no-repeat;
+    height: 16px;
+    width: 22px;
+    display: inline-block;
+}
+.fourth-second-div {
+    height: 210px;
+    width: 100%;
+    border-bottom: 2px solid gainsboro;
+    vertical-align: top;
+    display: inline-block;
+}
+.ticket-info {
+    margin: 10px 0 0 10px;
+    font: bold 12px "Segoe UI";
+    color: #1677cb;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.ticket-right-icon {
+    float: right;
+    padding-right: 7px;
+    margin: 10px 0 0 0;
+    background: url("images/down.jpg") no-repeat;
+    height: 13px;
+    width: 16px;
+    display: inline-block;
+}
+.status-open {
+    width: 100%;
+    display: inline-block;
+}
+.status {
+    width: 40%;
+    margin: 30px 0 0 10px;
+    font: bold 12px "Segoe UI";
+    color: #b6b6b6;
+    text-align: left;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.open {
+    width: 50%;
+    margin: 0 0 0 5px;
+    font: bold 14px "Segoe UI";
+    color: #575757;
+    text-align: right;
+    display: inline-block;
+}
+.settings {
+    background: url("images/settings.jpg") no-repeat;
+    height: 14px;
+    width: 20px;
+    text-align: right;
+    margin-left: 3px;
+    display: inline-block;
+}
+.fourth-third-div {
+    height: 50px;
+    width: 100%;
+    border-bottom: 2px solid gainsboro;
+    vertical-align: top;
+    display: inline-block;
+}
+.show {
+    color: #888888;
+    text-align: center;
+    font: 14px "Segoe UI";
+    margin-top: 10px;
+    display: block;
+}
+.show-icon {
+    margin-left: 5px;
+    background: url("images/show-icon.jpg") no-repeat;
+    height: 9px;
+    width: 14px;
+    display: inline-block;
+}
+.fourth-fourth-div {
+    width: 100%;
+    height: 400px;
+    vertical-align: top;
+    display: inline-block;
+}
+#files {
+    font: bold 12px "Segoe UI";
+    color: #1677cb;
+    margin: 10px;
+    text-transform: uppercase;
+    display: block;
+}
+.installer-boxes {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.installer {
+    vertical-align: top;
+    margin: 2px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    display: inline-block;
+}
+.installer-pdf {
+    background: url("images/pdf2.jpg") no-repeat;
+    margin: 7px auto;
+    height: 40px;
+    width: 30px;
+    display: block;
+}
+.installer-doc {
+    background: url("images/doc.jpg") no-repeat;
+    margin: 7px auto;
+    height: 40px;
+    width: 30px;
+    display: block;
+}
+.installer-xls {
+    background: url("images/xls.jpg") no-repeat;
+    margin: 7px auto;
+    height: 40px;
+    width: 30px;
+    display: block;
+}
+.installer-jpg {
+    background: url("images/jpg.jpg") no-repeat;
+    margin: 7px auto;
+    height: 40px;
+    width: 30px;
+    display: block;
+}
+.installer:hover {
+    background-color: #f6f6f6;
+    border-color: #1677cb;
+    cursor: pointer;
+}
+.installer-text-pdf {
+    font: 14px "Segoe UI";
+    font-weight: 600;
+    margin: 0 auto;
+    color: #444444;
+    display: block;
+}
+.file-download {
+   padding: 10px 0;
+    margin: 0 auto;
+    width: 90%;
+    vertical-align: top;
+    border: 1px solid gainsboro;
+    border-radius: 25px;
+    font: 14px "Segoe UI";
+    font-weight: 600;
+    color: #b7b7c3;
+    text-align: center;
+}
+
